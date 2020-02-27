@@ -11,7 +11,7 @@ import (
 
 func main() {
 	beego.Get("/", func(ctx *context.Context) {
-		ctx.WriteString(fmt.Sprintf("v6:time: %s", time.Now().Format("2006-01-02 15:04:05")))
+		ctx.WriteString(fmt.Sprintf("v7:time: %s", time.Now().Format("2006-01-02 15:04:05")))
 	})
 
 	beego.Run()
